@@ -46,7 +46,7 @@ $record=$stmt->fetch();
         <input type="date" class="form-control" id="date" name="date" value="<?= h($record['date']);?>">
      </div>
      <div class="form-group">
-        <label for="title">たいとる</label>
+        <label for="title">タイトル</label>
         <input type="text" class="form-control" id="title" name="title" value="<?= h($record['title']);?>">
       </div>
       <div class="form-group">
