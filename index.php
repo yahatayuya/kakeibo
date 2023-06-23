@@ -72,7 +72,7 @@ $records=$stmt->fetchAll();
                   <a href="./editForm.php?id=<?php echo h($record ['id']); ?>" class="btn btn-success text-light">編集</a>
 
 
-                  <a href="./delete.php" class="btn btn-danger text-light">削除</a>
+                  <a href="./delete.php?id=<?php echo h($record ['id']); ?>" class="btn btn-danger text-light">削除</a>
                 </td>
               </tr>
             <?php endforeach; ?>

@@ -55,13 +55,13 @@ $record=$stmt->fetch();
       </div>
       <div class="form-group">
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="income"
+          <input class="form-check-input" type="radio" name="type" id="income"value= "0"
           <?= h($record['type'])== 0 ?'checked':''; ?>>
 
           <label class="form-check-label" for="income">収入</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="type" id="spending"
+          <input class="form-check-input" type="radio" name="type" id="spending" value="1"
           <?= h($record['type'])== 1 ?'checked':''; ?>>
 
           <label class="form-check-label" for="spending">支出</label>
